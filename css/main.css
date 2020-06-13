@@ -1,43 +1,80 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+.navbar-brand {
+  font-size: 2em;
+  color: #1b2b52 !important;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.navbar-nav>li>a {
+  font-size: 1.2em;
+  color: #333 !important
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
-a:hover {
-    text-decoration: underline;
+
+.navbar-header {
+    float: left;
+    padding: 15px 0px 0px 0px ;
+    text-align: center;
+    width: 100%;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+.navbar-brand {
+  float:none;
+  margin-left: -0px !important;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: #1b2b52;
+  color: #e7e7e7;
+  border: solid #e7e7e7 !important;
+  border-width: 1px 0 0 0 !important;
+  z-index: 1;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+body {
+    font-family: Ubuntu;
+    margin-bottom: 80px;
 }
 
-ul.posts li {
-    list-style: none;
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+a {
+  color: #8860D0;
+}
+
+.section h1 {
+  padding-top: 70px !important;
+}
+
+
+h1 {
+  color: #1b2b52;
+}
+
+footer > p {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+hr {
+  margin: -5px 0px 5px 0px;
+  border-color: #e7e7e7;
 }
