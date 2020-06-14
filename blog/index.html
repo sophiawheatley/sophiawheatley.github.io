@@ -1,0 +1,11 @@
+---
+layout: default
+title: Sophia's Blog
+---
+	<h1>{{ page.title }}</h1>
+	<ul>
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date: "%B %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>

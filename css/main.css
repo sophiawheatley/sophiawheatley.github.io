@@ -1,32 +1,38 @@
-.navbar-brand {
+nav ul li {
+  display: inline;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding-top: 76px;
+  font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, footer, nav, a {
+  font-family: Ubuntu;
+  color: #1b2b52;
+  /* letter-spacing: 0.10rem; */
+}
+
+nav {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+a.navbar-item {
+  padding: 2px;
+  color: #8860D0;
+  font-size: 1.2em;
+}
+
+a.s-navbar-brand {
   font-size: 2em;
   color: #1b2b52 !important;
-}
-
-.navbar-nav>li>a {
-  font-size: 1.2em;
-  color: #333 !important
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.navbar-header {
-    float: left;
-    padding: 15px 0px 0px 0px ;
-    text-align: center;
-    width: 100%;
-}
-.navbar-brand {
-  float:none;
-  margin-left: -0px !important;
 }
 
 footer {
@@ -34,7 +40,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   background-color: #1b2b52;
   color: #e7e7e7;
@@ -43,38 +49,11 @@ footer {
   z-index: 1;
 }
 
-body {
-    font-family: Ubuntu;
-    margin-bottom: 80px;
-}
 
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
-
-a {
+a, a:hover {
   color: #8860D0;
 }
 
-.section h1 {
-  padding-top: 70px !important;
-}
-
-
-h1 {
-  color: #1b2b52;
-}
-
-footer > p {
-  text-align: center;
-}
-
-p {
-  text-align: justify;
-}
-
-hr {
-  margin: -5px 0px 5px 0px;
-  border-color: #e7e7e7;
+a.active {
+  text-decoration: underline;
 }

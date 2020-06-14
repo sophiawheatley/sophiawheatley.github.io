@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Sophia Wheatley">
+		<title>{{page.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="fixed-top bg-light">
+						<a class="s-navbar-brand" href="/">Sophia Wheatley</a>
+						<ul>
+							<li><a class="navbar-item mx-auto {% if "/about.html" == page.url %}active{% endif %}" href="/about">About</a></li>
+							<li><a class="navbar-item mx-auto {% if "/cv.html" == page.url %}active{% endif %}" href="/cv">CV</a></li>
+							<li><a class="navbar-item mx-auto {% if "/blog/" == page.url %}active{% endif %}" href="/blog/">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="content">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<footer class = "footer">
+						© Sophia Wheatley, 2020 </br>
+						<a href="https://github.com/sophiawheatley" title="GitHub"<i style="font-size:24px" class="fa">&#xf09b;</i></a>
+						<a href="https://twitter.com/aihpos_wheatley" title="Twitter"<i style="font-size:24px" class="fa">&#xf099;</i></a>
+						<a href="https://www.linkedin.com/in/sophiawheatley/" title="LinkedIn"<i style="font-size:24px" class="fa">&#xf08c;</i></a>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
