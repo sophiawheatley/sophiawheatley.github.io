@@ -13,36 +13,42 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
+		<div class="container-fluid">
+			<div class="row bg-light">
 				<div class="col-12">
-					<nav class="fixed-top bg-light">
+					<nav class="bg-light">
 						<a class="s-navbar-brand" href="/">Sophia Wheatley</a>
 						<ul>
-							<li><a class="navbar-item mx-auto {% if "/about.html" == page.url %}active{% endif %}" href="/about">About</a></li>
 							<li><a class="navbar-item mx-auto {% if "/cv.html" == page.url %}active{% endif %}" href="/cv">CV</a></li>
 							<li><a class="navbar-item mx-auto {% if "/blog/" == page.url %}active{% endif %}" href="/blog/">Blog</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12">
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center ">
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 align-self-center">
 					<div class="content">
 						{{ content }}
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12">
-					<footer class = "footer">
-						© Sophia Wheatley, 2020 </br>
-						<a href="https://github.com/sophiawheatley" title="GitHub"<i style="font-size:24px" class="fa">&#xf09b;</i></a>
-						<a href="https://twitter.com/aihpos_wheatley" title="Twitter"<i style="font-size:24px" class="fa">&#xf099;</i></a>
-						<a href="https://www.linkedin.com/in/sophiawheatley/" title="LinkedIn"<i style="font-size:24px" class="fa">&#xf08c;</i></a>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 align-self-center">
+					<footer class="footer">
+						<span>© Sophia Wheatley, 2020</span>
+						<a href="https://github.com/sophiawheatley" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/aihpos_wheatley" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/sophiawheatley/" title="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					</footer>
 				</div>
 			</div>
 		</div>
+
 	</body>
 </html>

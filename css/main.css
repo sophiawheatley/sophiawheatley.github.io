@@ -1,3 +1,8 @@
+body {
+  font-family: Roboto;
+  color: #212529;
+}
+
 nav ul li {
   display: inline;
 }
@@ -7,48 +12,42 @@ nav ul {
   padding: 0px;
 }
 
-body {
-  padding-top: 76px;
-  font-family: Roboto;
-}
-
-h1, h2, h3, h4, h5, footer, nav, a {
+h1, h2, h3, h4, h5, nav, a {
   font-family: Ubuntu;
   color: #1b2b52;
-  /* letter-spacing: 0.10rem; */
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4, h5, h6 {
+  font-size: 1rem;
 }
 
 nav {
   text-align: center;
-  margin: 0px;
-  padding: 0px;
 }
 
 a.navbar-item {
   padding: 2px;
   color: #8860D0;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 a.s-navbar-brand {
-  font-size: 2em;
-  color: #1b2b52 !important;
+  font-size: 1.5rem;
+  color: #1b2b52;
 }
-
-footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0.5rem;
-  text-align: center;
-  background-color: #1b2b52;
-  color: #e7e7e7;
-  border: solid #e7e7e7 !important;
-  border-width: 1px 0 0 0 !important;
-  z-index: 1;
-}
-
 
 a, a:hover {
   color: #8860D0;
@@ -56,4 +55,22 @@ a, a:hover {
 
 a.active {
   text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  border: solid #e7e7e7;
+  border-width: 1px 0 0 0;
+}
+
+ div.content {
+   padding-top: 1rem;
+ }
+
+div.meta {
+  font-style: italic;
+}
+
+i.fa {
+  font-size: 1.25rem;
 }
