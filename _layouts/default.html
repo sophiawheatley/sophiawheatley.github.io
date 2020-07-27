@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		{% for js in page.customjs %}
+		<script async type="text/javascript" src="{{ js }}"></script>
+		{% endfor %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Sophia Wheatley">
@@ -10,6 +13,17 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+		<script type="text/x-mathjax-config">
+				MathJax.Hub.Config({
+				tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				processEscapes: true},
+				jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+				extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+				TeX: {extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: {autoNumber: "AMS"}}
+				});
+		</script>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>

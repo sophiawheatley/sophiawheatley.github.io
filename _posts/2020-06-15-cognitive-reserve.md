@@ -39,6 +39,7 @@ Also people with Alzheimer's disease (AD) may also differ in brain activity comp
 One PET study comparing episodic memory performance between AD patients and normal elderly adults found that both groups had similar patterns of activity, but the specific areas used were different (Bäckman, 1999).
 Left parietal cortex and left hippocampal formation were activated in normal elderly adults for episodic retrieval.
 Left orbital prefrontal cortex and left cerebellum in AD patients were activated when performing cued recall.
+<!-- Stern et al. 2000 - H215O PET study  also found a difference in networks used when task difficulty increased during a verbal recognition task. Network for healthy elders: anterior cingulate, anterior insula and left basal ganglia. AD patients' network consisted of: temporal cortex, calcarine cortex, posterior cingulate and the vermis.  -->
 
 However one study showed that Alzheimer's disease (AD) patients did not utilise new brain areas, but actually used the same as healthy age-matched adults whilst undertaking a visuospatial paired associates learning task (Gould et al., 2006).
 Differences were only found between the two groups in terms of brain activation when encoding of two object locations were successful.
@@ -95,7 +96,7 @@ Aging is a complex process that is influenced by multiple factors, although the 
 
 
 
-**References**
+## References
 
 Bäckman, L., Andersson, J. L. R., Nyberg, L., Winblad, B., Nordberg, A., & Almkvist, O. (1999). Brain regions associated with episodic retrieval in normal aging and Alzheimer’s disease. Neurology, 52(9), 1861-1861.
 

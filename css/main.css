@@ -74,3 +74,16 @@ div.meta {
 i.fa {
   font-size: 1.25rem;
 }
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border:2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
