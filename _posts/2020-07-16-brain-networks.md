@@ -77,7 +77,7 @@ I will just list some key points that they assessed in their paper:
   * A threshold against a measure such as the clustering coefficient can change the connection density of the graph depending on the threshold set.
   * If the threshold is low then there will be many weak connections in the graph and if it is high then only the strong connections will be represented as edges in the graph.
   * It is more effective to use weighted graphs instead to assess the weak and strong connections in the network.
-  * Research into weak connections could be applied to psychological disorders e.g. schizophrenia (Bassett et al., 2012a)
+  * Research into weak connections could be applied to psychological disorders e.g. schizophrenia (Bassett et al., 2012a).
 
 The review concludes that small-worldness is still a relevant concept in the field of neuroscience.
 The fascinating research of using graph theory to understand the brain has come far and I look forward to future studies in the field.
