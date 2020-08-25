@@ -18,7 +18,7 @@ A *graph* consists of *vertices* and *edges*.
 An analogy to a graph is a social network where a vertex represents a person and an edge represents a friendship between the two people.
 
 <p align="center">
-  <img src="/assets/smallgraph.png" width= "250" height = "250"/>
+  <img src="/assets/images/smallgraph.png" width= "250" height = "250"/>
   <br/>
   <em>Figure 1</em>
 </p>
@@ -43,7 +43,7 @@ $L(G) = \frac {1}{n(n-1)} \sum\limits_{v_{i},v_{j}}d(v_{i},v_{j})$.
 The average path length of Figure 1 with distances $d(v_{1},v_{2}) = d(v_{1},v_{3}) = d(v_{2},v_{3}) = 1$ is $\frac {1+1+1}{3} = 1$.
 
 <p align="center">
-  <img src="/assets/biggergraph.png" width= "350" height = "350"/>
+  <img src="/assets/images/biggergraph.png" width= "350" height = "350"/>
   <br/>
   <em>Figure 1</em>
 </p>
