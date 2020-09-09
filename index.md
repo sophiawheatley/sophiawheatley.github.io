@@ -4,7 +4,7 @@ title: Hi, I'm Sophia!
 ---
 
 # Welcome
-My name is Sophia and I am a data analyst who is planning on doing a PhD in cognitive neuroscience.
+My name is Sophia and I am a data analyst based in Sweden planning on doing a PhD in cognitive neuroscience.
 
 <div class="row">
   <div class="col-4">

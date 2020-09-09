@@ -3,8 +3,8 @@ layout: post
 title: Brain networks
 date: 2020-07-16
 ---
-## Complex Brain Networks
-### 1. What is a complex network?
+# Complex Brain Networks
+## 1. What is a complex network?
 Networks have been used in various areas of scientific research so much so that the term 'network science' was coined for this interdisciplinary field.
 One type of network which has been proposed is a 'complex network' which is a network with certain features that make it different compared to simple networks (Bullmore & Sporns, 2009).
 These features could be differing levels of clustering, 'small-worldness' or presence of hubs (high degree nodes) to name a few.  
@@ -13,10 +13,10 @@ The degree exponent was shown to be around $γ=3$ and ranging between 2 and 3 in
 An another important finding was what they termed 'preferential attachment' which defines when a new node is added to the network, it is more likely to attach or create a connection with a higher degree node rather than a node with fewer connections.
 Small-world networks can also be described as being complex networks and research has found that networks in real life also show 'small-world' characteristics.
 
-### 2. How can complex network be used to model the human brain?
+## 2. How can complex network be used to model the human brain?
 Let's split this question into **Why** and **How** this can be done with the current neuroimaging data before looking at the research.
 
-#### 2.1 Why?
+### 2.1 Why?
 We might ask: what makes complex models a good way of modelling the brain?
 One answer is that although many researchers have shown that certain regions are involved in certain functions such as vision and audition, we still do not know how these areas work together to make up the human 'connectome'.
 Another reason is that 'small-world' attributes have been found in the brain for example when modelling a functional network using fMRI time series data (Achard et al., 2006).
@@ -27,7 +27,7 @@ In addition, the small-world architecture was also found to fit a model of struc
 So neither a power-law nor truncated power-law explained the degree distribution of the anatomical data used.
 
 
-#### 2.2 How?
+### 2.2 How?
 In Bullmore & Sporns' (Bullmore & Sporns, 2009) review on complex models in the brain they explain three types of models that can be formed from brain imaging data:
 - Structural
    - anatomical connectivity, using MRI, DTI
@@ -46,7 +46,7 @@ The first study to show small-world properties and degree distribution of anatom
 There were several main findings: small-world properties, short mean distances between regions and truncated power-law distributions when looking at the probability of finding a connection between two regions in healthy volunteers.
 
 
-### 3. AD models with the use of networks
+## 3. AD models with the use of networks
 It has been suggested previously that Alzheimer's disease (AD) is a 'disconnection syndrome' (Delbueck, Van der Linden & Collette, 2003).
 The concept of disconnection in brain disorders was first used to explain the observed lesions between brain regions as manifested in 'split-brain' patients where the corpus callosum is severed resulting in disruption in signals between the two hemispheres.  
 Models created from healthy controls and comparing them with models of AD patients may shed light on hypothesized disconnections in the brains of AD patients.
@@ -67,12 +67,12 @@ The highest number of hub nodes were found in the default mode network and execu
 Whereas in the AD group fewer hubs were evident in the resting state networks, apart from at the baseline when some did find four hubs in the EC, but was reduced to two in the year follow-up.  
 
 
-### Conclusion
+## Conclusion
 Although network research has added to a better understanding of brain networks, there are still some questions that have been left unanswered, but also some counterarguments.
 In a recent review by Bassett & Bullmore, they discuss recent studies and how the research has progressed over the last 15 years (Bassett & Bullmore, 2017).  
 I will just list some key points that they assessed in their paper:
 * Small-world networks do not fully explain brain networks and is only a starting point for the research into brain connectivity.
-* Many studies have looked at other features such as degree distribution, hubs, organization and more that are not just related to "small-worldness".
+* Many studies have looked at other features such as degree distribution, hubs, organization and more that are not just related to 'small-worldness'.
 * Binary graphs (used frequently in the field) are a much too simplified way of modelling the brain.
   * A threshold against a measure such as the clustering coefficient can change the connection density of the graph depending on the threshold set.
   * If the threshold is low then there will be many weak connections in the graph and if it is high then only the strong connections will be represented as edges in the graph.
@@ -80,7 +80,7 @@ I will just list some key points that they assessed in their paper:
   * Research into weak connections could be applied to psychological disorders e.g. schizophrenia (Bassett et al., 2012a).
 
 The review concludes that small-worldness is still a relevant concept in the field of neuroscience.
-The fascinating research of using graph theory to understand the brain has come far and I look forward to future studies in the field.
+The fascinating research using graph theory to understand the brain has come far and I look forward to future studies in the field.
 
 
 <hr />

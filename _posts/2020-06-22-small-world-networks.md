@@ -85,7 +85,7 @@ In summary, the characteristics of each type of graph are as follows:
 | High clustering  | High clustering  | Low clustering  |
 
 
-Small-world networks have been used to explain biological mechanisms and I will talk about this how it has been used in neuroscience research in my [next blog post](/).
+Small-world networks have been used to explain biological mechanisms and I will talk about how they has been used in neuroscience research in my [next blog post](/2020/07/16/brain-networks.html).
 
 
 ## References
