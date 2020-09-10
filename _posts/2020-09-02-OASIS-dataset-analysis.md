@@ -6,15 +6,14 @@ date: 2020-09-02
 
 ## OASIS Dataset Analysis
 
-I wanted to try out some analysis using a freely available longitudinal dataset containing older participants from Kaggle. https://www.kaggle.com/jboysen/mri-and-alzheimers
+I wanted to try out some analysis using a freely available longitudinal dataset containing older participants from [Kaggle](https://www.kaggle.com/jboysen/mri-and-alzheimers). Here's a link to the [original paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2895005/).
+
 
 
 ### Information about the data
 
 The data comes from a project titled "Open Access Series of Imaging Studies (OASIS): Longitudinal MRI Data in Nondemented and Demented Older Adults" by Marcus and colleagues. Participants were taken from a longitudinal pool of the Washington University Alzheimer Disease Research Center (ADRC). There were 150 participants with ages ranging from 60 to 96 years and various measures were taken such as T1-weighted MRI scans, brain volume measure and cognitive tests. These scans were taken at least one year apart with participants having two or more visits each. There were 72 participants that did not have dementia throughout the study, 64 had dementia from baseline including with 51 diagnosed as having mild to moderate Alzheimer's disease and 14 did not have dementia at baseline but were diagnosed with dementia later in the study.
 
-Link to the original paper
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2895005/
 
 ### Columns
 * Subject ID  
