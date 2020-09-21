@@ -32,7 +32,7 @@ In Bullmore & Sporns' (Bullmore & Sporns, 2009) review on complex models in the 
 - Structural
    - anatomical connectivity, using MRI, DTI
 - Functional
-   - how the elements rely on each other for functions, using EEG, MEG
+   - how the elements rely on each other for functions, using EEG, MEG, fMRI
 - Effective
    - causal/directional relationships, using causal estimation modelling e.g. Granger causality
 
