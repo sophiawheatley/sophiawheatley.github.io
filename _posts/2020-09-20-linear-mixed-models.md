@@ -744,7 +744,7 @@ The only variable that seems to be normally distributed here is the nWBV with W 
 
 ## Linear Mixed Effects Models
 
-In this first model, using the statsmodel function *mixedlm()*, five of the variables are treated as fixed effects with subject as the random effect as defined in the argument *groups*. This would be the equivalent of Converted ~ MMSE... + (1 | Subject) in R. All of the effects are calculated here in terms of interactions and simple effects. By default and because I have not specified it there is a random intercept for each group. The Bayesian Information Criteria (BIC) is pulled here as well to have a criteria for model fitting: the higher the score, the better. However it should be noted that every time a variable is added this score will increase.
+In this first model, using the statsmodel function *mixedlm()*, five of the variables are treated as fixed effects with subject as the random effect as defined in the argument *groups*. This would be the equivalent of Converted ~ MMSE... + (1 \| Subject) in R. All of the effects are calculated here in terms of interactions and simple effects. By default and because I have not specified it there is a random intercept for each group. The Bayesian Information Criteria (BIC) is pulled here as well to have a criteria for model fitting: the higher the score, the better. However it should be noted that every time a variable is added this score will increase.
 
 
 ```python
