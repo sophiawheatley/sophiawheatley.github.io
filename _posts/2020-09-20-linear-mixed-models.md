@@ -690,7 +690,7 @@ plot_lm_2.axes[0].set_ylabel('Standardized Residuals');
 ```
 
 
-![png](OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_15_0.png)
+![png](/assets/notebooks/OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_15_0.png)
 
 
 The Q-Q plot shows that there are many outliers that do not fit well on the line indication a deviation from a normal distribution. This makes it evident that another type of statistical model might be better for this dataset.
@@ -744,7 +744,7 @@ The only variable that seems to be normally distributed here is the nWBV with W 
 
 ## Linear Mixed Effects Models
 
-In this first model, using the statsmodel function *mixedlm()*, five of the variables are treated as fixed effects with subject as the random effect as defined in the argument *groups*. This would be the equivalent of \begin{equation*} Converted \backsim MMSE... + (1 | Subject)\end{equation*} in R. All of the effects are calculated here in terms of interactions and simple effects. By default and because I have not specified it there is a random intercept for each group. The Bayesian Information Criteria (BIC) is pulled here as well to have a criteria for model fitting: the higher the score, the better. However it should be noted that every time a variable is added this score will increase.
+In this first model, using the statsmodel function *mixedlm()*, five of the variables are treated as fixed effects with subject as the random effect as defined in the argument *groups*. This would be the equivalent of Converted ~ MMSE... + (1 | Subject) in R. All of the effects are calculated here in terms of interactions and simple effects. By default and because I have not specified it there is a random intercept for each group. The Bayesian Information Criteria (BIC) is pulled here as well to have a criteria for model fitting: the higher the score, the better. However it should be noted that every time a variable is added this score will increase.
 
 
 ```python
@@ -1073,7 +1073,7 @@ print("R-Squared:","{:.2f}".format(r_squared))
 
 
 
-![png](OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_32_1.png)
+![png](/assets/notebooks/OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_32_1.png)
 
 
 
@@ -1092,7 +1092,7 @@ print("R-Squared:","{:.4f}".format(r_squared))
 
 
 
-![png](OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_33_1.png)
+![png](/assets/notebooks/OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_33_1.png)
 
 
 
@@ -1112,7 +1112,7 @@ print("R-Squared:","{:.2f}".format(r_squared))
 
 
 
-![png](OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_34_1.png)
+![png](/assets/notebooks/OASIS_dataset_analysis-2_files/OASIS_dataset_analysis-2_34_1.png)
 
 
 Running the simple linear regression models comparing two of the variables at a time, it is evident that in this dataset EDUC, MMSE & SES do not correlate that well with R-squared values of 0.47, 0.0002 & 0.01. Although Education and SES seem to show a pattern in the graph it is not a strong enough correlation to assume a connection between the two.
