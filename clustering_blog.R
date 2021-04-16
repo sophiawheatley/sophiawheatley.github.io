@@ -21,7 +21,7 @@ ggplot(clust_data_gg, aes(x=X, y= Y,color=as.factor(n)))+
 #calculate distance matrix
 #manual way
 
-dist_matrix = matrix(nrow=10, ncol=10)
+dist_matrix <- matrix(nrow=10, ncol=10)
 for (i in 1:10){
   for (j in 1:10){
     if (i > j){
@@ -55,6 +55,8 @@ for (i in 1:10){
       updated_matrix <- rbind(updated_matrix, cluster)
 }
 updated_matrix <- na.omit(updated_matrix)
+updated_matrix <- rename(updated_matrix, 'cluster' = 'X.8_5.', 'distance' = "X.1.0857792211224.")
+updated_matrix$distance <- lapply(lapply(updated_matrix[,2], as.numeric),round, 4)
 
 ##hclust()
 tree <- hclust(as.dist(dist_matrix), method = "average")
@@ -64,7 +66,7 @@ rect.hclust(tree, k = 2, border=color_blind_palette[1:2]) # draw rectangles
 
 # explain how hclust works 
 tree$height #the distance values in increasing order, with the minimum value first being the first cluster
-tree$merge #the clusters starting with those closest together by means of average linkage and furthest way
+tree$merge  #the clusters starting with those closest together by means of average linkage and furthest way
 # positive values indicate the clusters and negative values the data points themselves 
 # we can compare the simple scatterplot with our dendrogram and see the correspondence between the data points and our clusters
 # points 5 & 8 which are close together form a cluster
@@ -81,8 +83,10 @@ for (n_clust in 2:10){
 }
 
 plot(ch_index_list, xlab="k (number of clusters)", ylab = "Calinski and Harabasz Index")
+lines(ch_index_list, col="black")
 max(ch_index_list,na.rm = T)
 plot(dunn_index_list, xlab="k (number of clusters)", ylab = "Dunn Index")
+lines(dunn_index_list, col="black")
 
 #choose 'best' number of clusters and cut tree 
 k_value=2
